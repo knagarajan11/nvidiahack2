@@ -4,7 +4,7 @@ from nvidia_client import analyze_leaf
 from agent import run_agent
 
 st.set_page_config(
-    page_title="CropGuard",
+    page_title="CropGuard 2.0",
     page_icon="🌿",
     layout="centered",
 )
@@ -30,7 +30,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.title("🌿 CropGuard")
+st.title("🌿 CropGuard 2.0")
 st.caption("AI-Powered Crop Disease Detection — Powered by NVIDIA NIM and Neo4j GraphRAG")
 
 st.write(
