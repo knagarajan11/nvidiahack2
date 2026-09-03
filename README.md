@@ -15,8 +15,8 @@ If your system supports Docker Compose:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/knagarajan11/nvidiahack.git
-   cd nvidiahack
+   git clone https://github.com/knagarajan11/nvidiahack2.git
+   cd nvidiahack2
    ```
 
 2. **Configure Environment:**
@@ -38,8 +38,8 @@ If you are on a shared DGX cluster (like SLURM) where Docker is not available an
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/knagarajan11/nvidiahack.git
-   cd nvidiahack
+   git clone https://github.com/knagarajan11/nvidiahack2.git
+   cd nvidiahack2
    ```
    1.b **Use this command only for repeated runs**
          ``bash 
@@ -57,7 +57,7 @@ chmod +x start_apptainer.sh run.sh
    ```
 
 3. **Ensure you have your NIM SIF file:**
-   Make sure your NIM container image (e.g., `llama32-vision.sif`) is located in the `nvidiahack` directory. If it is named differently, update the filename in `start_apptainer.sh`.
+   Make sure your NIM container image (e.g., `llama32-vision.sif`) is located in the `nvidiahack2` directory. If it is named differently, update the filename in `start_apptainer.sh`.
 
 4. **Run the startup script:**
    ```bash
@@ -83,7 +83,7 @@ chmod +x start_apptainer.sh run.sh
 
 * **Go back to your open terminal on dgx01 (where your app is currently running) and execute these exact 3 commands to download and run
 * **the **Cloudflare Tunnel:
-cd nvidiahack
+cd nvidiahack2
 bash
 wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -O cloudflared
 chmod +x cloudflared
